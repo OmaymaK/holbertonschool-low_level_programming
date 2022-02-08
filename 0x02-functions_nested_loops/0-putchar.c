@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char ch[] = "Holberton";
+	char ch[] = "_putchar";
 	int i;
 
 	for (i = 0; i < 9; i++)
