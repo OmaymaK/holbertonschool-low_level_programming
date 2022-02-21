@@ -6,7 +6,6 @@
  * @n: how many bytes to copy
  * Return: the pointer to the char array
  */
-
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
