@@ -8,9 +8,9 @@ int _checking_root(int n, int i);
  */
 int _sqrt_recursion(int n)
 /**
- *  _sqrt_recursion - returns the natural square root of a number
- *  @n number that we will get its square root
- *  Return: square root otherwise -1 if error
+ * _sqrt_recursion - returns the natural square root of a number
+ * @n number that we will get its square root
+ * Return: square root otherwise -1 if error
  */
 {
 	return (_checking_root(n, 1));
