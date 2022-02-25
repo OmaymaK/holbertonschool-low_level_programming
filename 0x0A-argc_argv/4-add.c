@@ -4,8 +4,6 @@
  * main - checks the code
  * @argc: The number of command line arguments
  * @argv: An array containing the program command line arguments
- * @i: index
- * @j: index
  * Return: 0 and 1 if error
  */
 int main(int argc, char *argv[])
