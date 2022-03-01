@@ -8,7 +8,7 @@
 unsigned int stringlength(char *s)
 {
 	unsigned int l = 0;
-	
+
 	if (s != NULL)
 	{
 		while (s[l] != '\0')
@@ -31,8 +31,8 @@ char *str_concat(char *s1, char *s2)
 
 	l1 = stringlength(s1);
 
-	tab = (malloc (l1 + l2 + 1));
-	
+	tab = malloc(l1 + l2 + 1);
+
 	if (tab == NULL)
 		return (NULL);
 
