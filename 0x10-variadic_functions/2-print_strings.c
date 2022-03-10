@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- * print_strings - prints strings 
+ * print_strings - prints strings
  * @n: number of strings to be printed
  * @separator: string to be printed between strings
  */
@@ -18,8 +18,8 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		s = va_arg(args, char *);
 		if (s == NULL)
 			printf("(nil)");
-		else 
-			printf("%s",s);
+		else
+			printf("%s", s);
 		if (separator != NULL && i != (n - 1))
 			printf("%s", separator);
 	}
