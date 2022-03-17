@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
-#define LISTS_H
-#ifndef LISTS_H
+#define _LISTS_H_
+#ifndef _LISTS_H_
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)

@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <string.h>
 #include "lists.h"
 /**
  * print_list - prints ll the elements of a list_t list
- * @h: pointer
+ * @h: head of a list
  * Return: number of nodes
  */
 size_t print_list(const list_t *h)
