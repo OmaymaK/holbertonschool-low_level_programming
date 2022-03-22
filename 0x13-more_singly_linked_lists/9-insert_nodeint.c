@@ -19,7 +19,7 @@ size_t listint_len(const listint_t *h)
 	return (len);
 }
 /**
- * nsert_nodeint_at_index - inserts a new node at a given position.
+ * insert_nodeint_at_index - inserts a new node at a given position.
  * @head: pointer to pointer to struct
  * @idx: index of list where new node should be added
  * @n: value of n member for new node
