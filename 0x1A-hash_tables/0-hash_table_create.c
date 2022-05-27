@@ -5,7 +5,7 @@
  * Return: hash table
  */
 
-hash_table_t *hash_table_ciureate(unsigned long int size)
+hash_table_t *hash_table_create(unsigned long int size)
 {
 	unsigned long int i;
 	hash_table_t *new_hash = NULL;
